@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Third Assignment</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+            </style>
+        <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body class="lora">
     <!-- header -->
     <header class="flex justify-between items-center bg-slate-300 py-10 px-5 sm:px-28 border-b-2 border-pink-700 sm:border-b-0">
        <div class="flex items-center gap-2">
@@ -30,7 +37,7 @@
         <!-- section-1 -->
         <section class="my-28 mx-5 sm:mx-28">
             <div class="pb-36 sm:pb-52 bg-[url('./c1-assets/cat-big.png')] bg-no-repeat bg-contain bg-bottom sm:bg-cover">
-                <p class="text-4xl font-bold">Pamper Your Pet, <br>Because They Deserve <br>the Bes</p>
+                <p class="text-5xl adlam-display-regular">Pamper Your Pet, <br>Because They Deserve <br>the Bes</p>
                 <p class="text-gray-600 text-xl w-2/3 py-8 animate-bounce">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
                 <button class="bg-yellow-400 px-8 py-2 rounded-md text-xl">Find a pet</button>
             </div>
@@ -38,36 +45,36 @@
         <!-- section-2 -->
         <section class="my-40 mx-5 sm:mx-28">
             <div>
-                <h1 class="text-4xl font-bold mb-10">Browse By Categories</h1>
+                <h1 class="text-4xl adlam-display-regular mb-10">Browse By Categories</h1>
                 <div class="grid grid-cols-2 gap-4 sm:grid-cols-6">
                     <div class="bg-red-300 py-8 px-12 rounded-md text-center">
                         <div class="bg-white rounded-full p-5"><img src="c1-assets/dog-cartoon.png" alt=""></div>
-                        <p class="text-xl font-bold mt-6 mb-4">Dog</p>
+                        <p class="text-xl adlam-display-regular mt-6 mb-4">Dog</p>
                         <p>3 items</p>
                     </div>
                     <div class="bg-red-300 py-8 px-12 rounded-md text-center">
                         <div class="bg-white rounded-full p-5"><img src="c1-assets/fish-cartoon.png" alt=""></div>
-                        <p class="text-xl font-bold mt-6 mb-4">Fish</p>
+                        <p class="text-xl adlam-display-regular mt-6 mb-4">Fish</p>
                         <p>3 items</p>
                     </div>
                     <div class="bg-red-300 py-8 px-12 rounded-md text-center">
                         <div class="bg-white rounded-full p-5"><img src="c1-assets/cat-cartoon.png" alt=""></div>
-                        <p class="text-xl font-bold mt-6 mb-4">Cat</p>
+                        <p class="text-xl adlam-display-regular mt-6 mb-4">Cat</p>
                         <p>3 items</p>
                     </div>
                     <div class="bg-red-300 py-8 px-12 rounded-md text-center">
                         <div class="bg-white rounded-full p-5"><img src="c1-assets/bird-cartoon.png" alt=""></div>
-                        <p class="text-xl font-bold mt-6 mb-4">Birds</p>
+                        <p class="text-xl adlam-display-regular mt-6 mb-4">Birds</p>
                         <p>3 items</p>
                     </div>
                     <div class="bg-red-300 py-8 px-12 rounded-md text-center">
                         <div class="bg-white rounded-full p-5"><img src="c1-assets/mouse-cartoon.png" alt=""></div>
-                        <p class="text-xl font-bold mt-6 mb-4">Small Pet</p>
+                        <p class="text-xl adlam-display-regular mt-6 mb-4">Small Pet</p>
                         <p>3 items</p>
                     </div>
                     <div class="bg-red-300 py-8 px-12 rounded-md text-center">
                         <div class="bg-white rounded-full p-5"><img src="c1-assets/rabbit-cartoon.png" alt=""></div>
-                        <p class="text-xl font-bold mt-6 mb-4">Rabbit</p>
+                        <p class="text-xl adlam-display-regular mt-6 mb-4">Rabbit</p>
                         <p>3 items</p>
                     </div>
                 </div>
@@ -76,10 +83,10 @@
         <!-- section-3  -->
          <section class="bg-lime-100">
             <div class="mb-20 mt-16 py-6 mx-5 sm:mx-28">
-                <p class="text-4xl font-bold">Trending Pet Products</p>
+                <p class="text-4xl adlam-display-regular">Trending Pet Products</p>
                 <div class="flex flex-col gap-3 sm:flex sm:flex-row sm:gap-3 mt-8">
                     <div class="bg-pink-300 bg-[url('./c1-assets/cute-pet-small.png')] bg-no-repeat bg-right pt-10 pb-20 px-6 rounded-md">
-                        <p class="text-4xl font-bold">T- Shirt For Dogs</p>
+                        <p class="text-4xl adlam-display-regular">T- Shirt For Dogs</p>
                         <p class="py-6 w-2/3 text-gray-600">Discover a world of treats, toys, and essentials handpicked for</p>
                         <button class="bg-white text-2xl rounded-md px-7 py-2">Shop Now</button>
                     </div>
@@ -216,22 +223,22 @@
           </section>
          <!-- section-4  -->
           <section class="my-40 mx-5 sm:mx-28">
-            <p class="text-4xl font-bold">Everyday low price</p>
+            <p class="text-4xl adlam-display-regular">Everyday low price</p>
            <div class="flex flex-col gap-4 sm:flex sm:flex-row sm:gap-4 mt-8">
             <div class="flex items-center bg-gradient-to-r from-red-200 to-slate-200 rounded-md px-8 py-2 h-96 sm:h-auto">
                 <div class="sm:w-2/3">
                     <p class="text-xl hidden sm:block">Under Price</p>
-                    <p class="text-xl sm:text-3xl font-bold my-4">Pet Grooming Mitt</p>
+                    <p class="text-xl sm:text-3xl adlam-display-regular my-4">Pet Grooming Mitt</p>
                     <p class="text-2xl font-bold text-white hidden sm:block">(Easy Here Removal)</p>
-                    <p class="text-7xl font-bold mt-4">$7.99</p>
+                    <p class="text-5xl adlam-display-regular mt-4">$7.99</p>
                 </div>
                 <div>
                     <img src="c1-assets/cute-dog-mid.png" alt="">
                 </div>
             </div>
             <div class="bg-[url('./c1-assets/cute-pet-mid.png')] bg-contain bg-no-repeat bg-right bg-blue-100 rounded-md h-96 sm:h-auto sm:w-5/12 pl-4 pr-8 py-8">
-                <p class="text-4xl font-bold">T-Shirt for Dogs</p>
-                <p class="text-7xl font-bold text-yellow-400 mt-6">$7.99</p>
+                <p class="text-4xl adlam-display-regular">T-Shirt for Dogs</p>
+                <p class="text-5xl adlam-display-regular text-yellow-400 mt-6">$7.99</p>
             </div>
            </div>
           </section>
@@ -240,7 +247,7 @@
             <div class="flex flex-col gap-10 sm:flex sm:flex-row sm:gap-10 items-center bg-orange-200 py-8 px-12 rounded-lg">
                 <div><img src="c1-assets/cute-pet-mid.png" alt=""></div>
                 <div class="text-center sm:text-left">
-                    <p class="text-4xl font-bold">Get Pawsome News!</p>
+                    <p class="text-4xl adlam-display-regular">Get Pawsome News!</p>
                     <p class="text-2xl my-6">Exclusive training tips, ticks, product deals and more.</p>
                     <input class="h-16 w-72 sm:w-96 pl-6 rounded-md" type="email" name="" id="" placeholder="Enter your email address"> <br>
                     <button class="text-2xl rounded-md bg-yellow-400 px-9 py-2 mt-6">Subscribe</button>
